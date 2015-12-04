@@ -29,9 +29,8 @@ a{
 }
 
 .container{
-/*  width: 1170px;
-*/  /* max-widthを設定 */
-  max-width: 1170px;
+  /* max-widthを設定 */
+  width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
 }
