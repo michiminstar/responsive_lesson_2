@@ -1,0 +1,10 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .container {
+    max-width: 620px;
+  }
+  .lesson {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
