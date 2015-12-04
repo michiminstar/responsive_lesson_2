@@ -1,7 +1,7 @@
 /* タブレット向けレイアウト */
 @media all and (max-width: 1000px) {
   .container {
-    max-width: 620px;
+    max-width: 720px;
   }
   .lesson {
     width: 50%;
