@@ -1,10 +1,26 @@
 /* タブレット向けレイアウト */
 @media all and (max-width: 1000px) {
   .container {
-    max-width: 620px;
+    max-width: 720px;
   }
   .lesson {
     width: 50%;
     margin-bottom: 30px;
+  }
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 640px) {
+  .container {
+    max-width: 100%;
+  }
+  .lesson {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+  .facebook {
+    margin-bottom: 10px;
   }
 }
