@@ -98,8 +98,6 @@ header{
 }
 
 .lesson-wrapper{
-/* 下記のcssを削除*/
-  height: 500px;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
