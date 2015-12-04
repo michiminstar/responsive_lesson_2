@@ -7,15 +7,6 @@ a{
   text-decoration: none;
 }
 
-/* float解除のためのclearfixクラス */
-.clearfix:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
 .top-wrapper{
   padding: 180px 0 100px 0;
   background-image: url(http://prog-8.com/images/html/advanced/top.png);
@@ -25,7 +16,7 @@ a{
 }
 
 .container{
-  /* max-widthを設定 */
+  /* max-widthに変更 */
   width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
@@ -130,9 +121,6 @@ header{
 .lesson{
   float: left;
   width: 25%;
-  /* 下記のCSSを追加 */
-/*  padding-right: 15px;
-  padding-left: 15px;*/
 }
 
 .lesson-icon{
@@ -141,7 +129,6 @@ header{
 
 .lesson-icon p{
   position: absolute;
-  /* 37%に変更 */
   top: 37%;
   width: 100%;
   color: white;
