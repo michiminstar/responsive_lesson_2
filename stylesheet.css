@@ -7,6 +7,15 @@ a{
   text-decoration: none;
 }
 
+/* float解除のためのclearfixクラス */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
 .top-wrapper{
   padding: 180px 0 100px 0;
   background-image: url(http://prog-8.com/images/html/advanced/top.png);
