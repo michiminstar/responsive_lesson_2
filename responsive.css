@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* メディアクエリ */
+/* タブレット向けレイアウト */
+@media all and (max-width: 920px) {
+  .container {
+    max-width: 620px;
+  }
+  .lesson {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 680px) {
+  .container {
+    max-width: 340px;
+  }
+  .lesson {
+    width: 100%;
+  }
+/*  .lesson-icon img {
+    width: 80%;
+  }*/
+  .btn {
+    width: 100%;
+  }
+  .facebook {
+    margin-bottom: 10px;
+  }
+
+  /* フォントサイズの調整 */
+  .heading h2 {
+    font-size: 1.3em;
+  }
+  .message-wrapper {
+    text-align: left;
+  }
+}
