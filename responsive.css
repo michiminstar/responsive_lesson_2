@@ -1,10 +1,14 @@
 /* タブレット向けレイアウト */
-@media all and (max-width: 1000px){
-  .container {
-    max-width: 720px;
-  }
-  .lesson {
-    width: 50%;
-    margin-bottom: 30px;
-  }
+
+/* ブレイクポイントが1000px以下の時のメディアクエリを設定*/
+@media and (){
+  /* containerクラスの幅をmax-width: 720px;に調整*/
+
+
+  /* lessonクラスのwidthを50%に変更し、margin-bottom: 30px;を追加 */
+
+
+  /* footerの位置を中央寄せにする */
+
+
 }
