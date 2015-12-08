@@ -1,5 +1,5 @@
 /* タブレット向けレイアウト */
-@media and (max-width: 1000px){
+@media all and (max-width: 1000px){
   .container{
     max-width: 720px;
   }
@@ -18,7 +18,7 @@
 /* スマホ向けレイアウト */
 
 /* ブレイクポイントが640px以下の時のメディアクエリを設定 */
-@media and ( ){
+@media all and ( ){
   /* containerクラスの幅をmax-widthを100%に指定 */
 
 
