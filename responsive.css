@@ -3,13 +3,16 @@
   .container{
     max-width: 720px;
   }
+
   .lesson{
     width: 50%;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
+
   footer{
     text-align: center;
   }
+
 }
 
 /* スマホ向けレイアウト */
