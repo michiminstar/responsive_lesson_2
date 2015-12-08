@@ -1,4 +1,7 @@
 /* 共通のレイアウト */
+/* box-sizing: border-box;を指定*/
+
+
 body{
   margin: 0;
 }
