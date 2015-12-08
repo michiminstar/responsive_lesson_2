@@ -1,5 +1,5 @@
 /* タブレット向けレイアウト */
-@media all and (max-width: 1000px){
+@media and (max-width: 1000px){
   .container{
     max-width: 720px;
   }
@@ -13,17 +13,19 @@
 }
 
 /* スマホ向けレイアウト */
-@media all and (max-width: 640px){
-  .container{
-    max-width: 100%;
-  }
-  .lesson{
-    width: 100%;
-  }
-  .btn{
-    width: 100%;
-  }
-  .facebook{
-    margin-bottom: 10px;
-  }
+
+/* ブレイクポイントが640px以下の時のメディアクエリを設定 */
+@media and ( ){
+  /* containerクラスの幅をmax-widthを100%に指定 */
+
+
+  /* lessonクラスのwidthを100%に指定 */
+
+
+  /* btnクラスのwidthを100%に指定 */
+
+
+  /* facebooボタンにmargin-bottom: 10px;を追加 */
+
+
 }
