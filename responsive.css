@@ -3,13 +3,25 @@
   .container{
     max-width: 720px;
   }
+
   .lesson{
     width: 50%;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
+
   footer{
     text-align: center;
   }
+
+  /* 「.top-wrapper h1」のfont-sizeを32pxに指定 */
+
+
+  /* 「,heading h2」のfont-sizeを20pxに指定 */
+
+
+  /* 「.heading h3」のfont-sizeを16pxに指定 */
+
+
 }
 
 /* スマホ向けレイアウト */
@@ -17,13 +29,17 @@
   .container{
     max-width: 100%;
   }
+
   .lesson{
     width: 100%;
   }
+
   .btn{
     width: 100%;
   }
+
   .facebook{
     margin-bottom: 10px;
   }
+
 }
