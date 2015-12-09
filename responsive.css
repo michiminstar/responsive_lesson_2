@@ -40,7 +40,14 @@
     margin-bottom: 10px;
   }
 
+  /* top-wrapperクラスのtext-alignをleftに指定 */
+
+
   .top-wrapper h1{
-    font-size: 24px;
+    font-size: 28px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
   }
 }

@@ -20,6 +20,9 @@ a{
   visibility: hidden;
 }
 
+/* hide-mobileクラスを追加 */
+
+
 .top-wrapper{
   padding: 180px 0 100px 0;
   background-image: url(http://prog-8.com/images/html/advanced/top.png);
@@ -65,6 +68,7 @@ a{
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;
+  text-align: center;
 }
 
 .btn:hover{
@@ -109,6 +113,9 @@ header{
 .header-right a:hover{
   background-color: rgba(255,255,255,0.3);
 }
+
+/* デフォルトではメニューアイコンを非表示にする */
+
 
 .lesson-wrapper{
   padding-bottom: 80px;
