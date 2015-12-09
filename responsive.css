@@ -20,6 +20,13 @@
   .heading h2{
     font-size: 20px;
   }
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 640px){
+  .container{
+    max-width: 100%;
+  }
 
   .header-right {
     display: none;
@@ -27,13 +34,6 @@
 
   .menu-icon {
     display: inline-block;
-  }
-}
-
-/* スマホ向けレイアウト */
-@media all and (max-width: 640px){
-  .container{
-    max-width: 100%;
   }
 
   .lesson{
