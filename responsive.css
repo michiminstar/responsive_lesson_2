@@ -28,14 +28,6 @@
     max-width: 100%;
   }
 
-  .header-right {
-    display: none;
-  }
-
-  .menu-icon {
-    display: inline-block;
-  }
-
   .lesson{
     width: 100%;
   }
@@ -58,5 +50,13 @@
 
   .top-wrapper p {
     font-size: 14px;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: inline-block;
   }
 }
