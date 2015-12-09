@@ -40,8 +40,12 @@
     margin-bottom: 10px;
   }
 
-  /* top-wrapperクラスのtext-alignをleftに指定 */
+  /* header-rightクラスを隠す*/
 
+  
+  .top-wrapper {
+    text-align: left;
+  }
 
   .top-wrapper h1{
     font-size: 28px;
