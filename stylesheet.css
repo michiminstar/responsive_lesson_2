@@ -16,18 +16,18 @@ a{
   visibility: hidden;
 }
 
+.container{
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .top-wrapper{
   padding: 180px 0 100px 0;
   background-image: url(http://prog-8.com/images/html/advanced/top.png);
   background-size: cover;
   color: white;
   text-align: center;
-}
-
-.container{
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 
 .top-wrapper h1{
@@ -40,6 +40,14 @@ a{
   opacity: 0.7;
   font-size: 16x;
   margin-bottom: 40px;
+}
+
+.btn-wrapper {
+  text-align: center;
+}
+
+.btn-wrapper p {
+  margin-bottom: 20px;
 }
 
 .signup{
