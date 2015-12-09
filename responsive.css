@@ -32,12 +32,12 @@
     width: 100%;
   }
 
-  .btn{
-    width: 100%;
+  .header-right {
+    display: none;
   }
 
-  .facebook{
-    margin-bottom: 10px;
+  .menu-icon {
+    display: inline-block;
   }
 
   .top-wrapper {
@@ -52,11 +52,11 @@
     font-size: 14px;
   }
 
-  .header-right {
-    display: none;
+  .btn{
+    width: 100%;
   }
 
-  .menu-icon {
-    display: inline-block;
+  .facebook{
+    margin-bottom: 10px;
   }
 }
