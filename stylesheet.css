@@ -11,7 +11,7 @@ a{
   text-decoration: none;
 }
 
-/* float解除のためのclearfixクラスを追加 */
+/* float解除のためのclearクラスを追加 */
 
 
 .container{
