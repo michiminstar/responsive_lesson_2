@@ -11,13 +11,8 @@ a{
   text-decoration: none;
 }
 
-/* float解除のためのclearfixクラス */
-.clearfix:after {
-  content: ".";
-  display: block;
-  height: 0;
+.clear{
   clear: both;
-  visibility: hidden;
 }
 
 .container{
